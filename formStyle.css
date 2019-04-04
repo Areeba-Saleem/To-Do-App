@@ -1,0 +1,162 @@
+
+.formPage {
+    height: 90px;
+ 
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    
+    font-style: oblique; 
+    text-decoration-style: double;
+    color: rgb(246, 240, 255)
+
+}
+#top{
+    background-color: rgba(230, 126, 34, 0.8);
+    
+}
+#footer {
+    height: 60px;
+    background-color: rgba(230, 126, 34, 0.8);
+    font-size: 120%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.formBox {
+    height: 380px;
+    max-width: 400px;
+    margin: 120px auto 120px auto;
+    background-color: rgb(250, 215, 160);
+    border: solid #c57f16e5;
+    
+    
+}
+form {
+    margin: 40px 0px 10px 10px;
+}
+td {
+    align-items: flex-start;
+    font-weight: bold;
+    
+    
+}
+.hide {
+    display: none;
+
+}
+input {
+    font-size: 120%;
+    color: #0c0c0cc7;
+    background-color: #f2f2f2;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    padding: 5px 5px 5px 30px;
+    background-repeat: no-repeat;
+    background-position: 8px 9px;
+    margin-bottom: 10px;
+}
+input:focus {
+    background-color: white;
+}
+.button {
+    font-size: 120%;
+    padding: 5px 5px 5px 5px; 
+    background-color: rgba(230, 126, 34, 0.8);
+    border: 1px solid  rgb(230, 126, 34);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold; 
+}
+.button:hover {
+    color: black;
+    border: 1px solid #f54f1c;
+    border-top: 2px solid #f54f1c;
+    background-color:  rgba(233, 122, 25, 0.897);
+}
+
+.message {
+    margin-top: 40px;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bold;
+}
+.link {
+    color: rgba(230, 126, 34, 0.8);
+}
+.link:hover {
+    color: #f54f1c;
+    
+}
+
+#welcome {
+    color: rgba(230, 125, 34, 0.918);
+    text-align: center;
+    font-size: 30px; 
+    font-style: oblique;
+    font-weight: bold;
+     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+
+
+}
+#toDoList {
+    margin: 20px auto 120px auto;
+    height: 1200px;
+    max-width: 550px;
+    border: 2px solid #c57f16e5;
+    border-radius: 10px;
+}
+.addOption {
+   
+    background-color: rgb(250, 215, 160);
+    min-height: 60px;
+    max-height: 130px;
+}
+#newTask {
+   
+    
+}
+.task {
+    border: solid rgba(233, 122, 25, 0.897);
+
+}
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.733); 
+    font-size: 18px; 
+}
+.deleteButton {
+    margin: 10px 10px 10px 40px;
+    background-color: rgba(230, 126, 34, 0.8);
+    color: white;
+    border: solid rgba(230, 126, 34, 0.8); 
+    border-radius: 3px;
+}
+.deleteButton:hover {
+    color: black;
+    border: 1px solid #f54f1c;
+    border-top: 2px solid #f54f1c;
+    background-color:  rgba(233, 122, 25, 0.897);
+}
+
+#signOut {
+    font-size: 80%;
+    padding: 5px 5px 5px 5px;
+    align-self: flex-end; 
+    background-color: white;
+    border: 1px solid  rgb(230, 126, 34);
+    border-radius: 4px;
+    color: rgba(230, 126, 34, 0.8);
+    font-weight: bold;
+    
+}
+h1 {
+    display: inline;
+
+    font-weight: bold;
+}
+#signOut:hover {
+    color: white;
+    border: 1px solid #f54f1c;
+    border-top: 2px solid #f54f1c;
+    background-color:  rgba(233, 122, 25, 0.897);
+}
